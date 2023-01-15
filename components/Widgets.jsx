@@ -1,7 +1,7 @@
 import React from "react";
 import { SearchIcon } from "@heroicons/react/outline";
 import Trending from "./Trending";
-import Image from "next/image"
+import Image from "next/legacy/image";
 
 const Widgets = ({ trendingResults, followResults }) => {
   return (
